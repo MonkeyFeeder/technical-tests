@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+  background-color: #fafafa;
+}
+
+main.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+table.sortable thead {
+  background-color:#eee;
+  color:#666666;
+  font-weight: bold;
+  cursor: default;
+}
+
+tr {
+  border-top: 1px solid #E6E6E6;
+}
+
+tr:nth-child(even) {
+  background-color: #E6E6E6;
+}
+
+td {
+  padding: 5px;
+}

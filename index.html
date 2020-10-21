@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Test for CurrentBody</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+    <!-- Decided to go for sorttable.js since it's very light -->
+    <script src="sorttable.js"></script>
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <main class="container">
+      <h1>CurrentBody Test</h1>
+      <h2>Fetching data and displaying it in a sortable table</h2>
+      <p>Start date: 2.15</p>
+      <p>Basic CSS + table + sorting feature ( searching for library etc.. ) done by 2.28</p>
+      <p>Standard script ( not optimized ) done by 2.48</p>
+      <p>Optimized JS by 3pm</p>
+
+      <table class="sortable">
+        <thead>
+          <tr>
+            <th>Authors Name</th>
+            <th>Author Commit Date</th>
+            <th>Message</th>
+            <th>Commit URL</th>
+          </tr>
+        </thead>
+        <tbody class="table-body">
+        </tbody>
+      </table>
+    </main>
+    
+    <script src="./script.js" async defer></script>
+  </body>
+</html>
